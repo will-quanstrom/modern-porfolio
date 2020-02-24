@@ -1,9 +1,10 @@
 {
-  "name": "CHANGENAME",
+  "name": "mordern-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sass": "node-sass -w scss/ -o src/css/ --recursive",
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
@@ -30,6 +31,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.16.0"
   }
 }

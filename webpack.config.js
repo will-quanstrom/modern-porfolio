@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'CHANGENAME',
+      title: 'modern-porfolio',
       template: './src/index.html',
       inject: 'body'
     })
